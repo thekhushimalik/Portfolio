@@ -16,14 +16,6 @@ This project demonstrates **5 advanced SQL analytical operations** using the Bra
 
 **Source**: [Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
 
-**Dataset Size**: 
-- **Orders**: ~100,000 transactions (2016-2018)
-- **Customers**: ~99,000 unique customers
-- **Reviews**: ~99,000 customer reviews with text
-- **Sellers**: ~3,000 marketplace sellers
-- **Products**: ~32,000 product catalog
-- **Geographic Coverage**: All Brazilian states
-
 **Business Context**: Real e-commerce marketplace data from Brazil's largest department store connecting small businesses to customers across the country.
 
 ---
@@ -39,10 +31,6 @@ This project demonstrates **5 advanced SQL analytical operations** using the Bra
 - Complex window partitioning for customer journey mapping
 - Time-based emotional state classification
 
-**Key Insights**:
-- Customer purchase timing reveals emotional states
-- Rolling averages predict future buying behavior
-- Hesitation patterns identify churn risk
 
 ### 2. 📝 **NLP Text Analytics with Hierarchical Analysis**  
 **Business Problem**: How can we extract business intelligence from unstructured review text?
@@ -53,10 +41,6 @@ This project demonstrates **5 advanced SQL analytical operations** using the Bra
 - Text length and pattern analysis for review quality
 - Time-series sentiment forecasting
 
-**Key Insights**:
-- Sentiment trends predict product category performance
-- Review text patterns identify fake reviews
-- Hierarchical category analysis reveals market opportunities
 
 ### 3. 🕸️ **Competitive Network Analysis**
 **Business Problem**: How do sellers compete and influence each other in the marketplace?
@@ -67,10 +51,6 @@ This project demonstrates **5 advanced SQL analytical operations** using the Bra
 - Shared customer analysis for market overlap
 - Network centrality scoring for influence measurement
 
-**Key Insights**:
-- Seller competitive networks reveal market dynamics
-- Customer sharing patterns show competitive threats
-- Network effects amplify successful seller strategies
 
 ### 4. 🌐 **Recursive Influence Networks**
 **Business Problem**: How do customers influence each other through geographic and social connections?
@@ -81,10 +61,6 @@ This project demonstrates **5 advanced SQL analytical operations** using the Bra
 - Multi-touch attribution modeling
 - Influence decay algorithms
 
-**Key Insights**:
-- Geographic clustering drives purchasing decisions
-- Customer influence networks amplify marketing ROI
-- Recursive analysis reveals hidden market influencers
 
 ### 5. 🎯 **Behavioral Pattern Recognition for Fraud Detection**
 **Business Problem**: How can we identify fraudulent behavior before transactions complete?
@@ -94,11 +70,6 @@ This project demonstrates **5 advanced SQL analytical operations** using the Bra
 - Behavioral DNA fingerprinting via pattern analysis
 - Multi-variable anomaly detection scoring
 - Real-time risk assessment algorithms
-
-**Key Insights**:
-- Purchase timing patterns reveal fraudulent accounts
-- Payment behavior creates unique customer fingerprints
-- Ensemble scoring improves fraud detection accuracy
 
 ---
 
@@ -117,54 +88,6 @@ This project demonstrates **5 advanced SQL analytical operations** using the Bra
 - **Text Processing**: String manipulation for NLP analysis
 - **Date/Time Functions**: Complex temporal analysis
 
-### **Data Pipeline**:
-```
-Raw CSV Files → MySQL Database → Advanced SQL Queries → Business Insights → Tableau Dashboards
-```
-
----
-
-## 📁 Project Structure
-
-```
-SQL_project/
-├── archive/                          # Original Olist dataset
-│   ├── olist_orders_dataset.csv
-│   ├── olist_customers_dataset.csv
-│   ├── olist_order_reviews_dataset.csv
-│   └── ... (9 CSV files total)
-│
-├── small_dataset/                     # Optimized sample dataset
-│   ├── olist_orders_dataset_small.csv
-│   └── ... (smaller versions for testing)
-│
-├── sql_queries/
-│   ├── 01_window_functions_behavioral.sql
-│   ├── 02_nlp_text_analytics.sql
-│   ├── 03_competitive_networks.sql
-│   ├── 04_recursive_influence.sql
-│   └── 05_pattern_recognition_fraud.sql
-│
-├── database_setup/
-│   ├── create_tables.sql
-│   ├── load_data.sql
-│   └── create_indexes.sql
-│
-├── scripts/
-│   ├── create_small_dataset.py
-│   ├── data_validation.py
-│   └── performance_testing.sql
-│
-├── results/
-│   ├── behavioral_insights.csv
-│   ├── sentiment_analysis.csv
-│   └── network_analysis.csv
-│
-├── tableau_dashboards/
-│   ├── customer_behavior_dashboard.twbx
-│   └── competitive_intelligence.twbx
-│
-└── README.md
 ```
 
 ---
@@ -181,8 +104,8 @@ SQL_project/
 
 1. **Clone/Download the project**
    ```bash
-   git clone [repository-url]
-   cd SQL_project
+   git clone [gh repo clone thekhushimalik/Portfolio/]
+   cd Sql_ecom_project
    ```
 
 2. **Download the Olist dataset**
@@ -280,15 +203,13 @@ SQL_project/
 
 ## 📞 Contact & Collaboration
 
-**Project Author**: [Your Name]
-- **LinkedIn**: [your-linkedin-profile]
-- **GitHub**: [your-github-profile]  
-- **Email**: [your-email]
+**Project Author**: [Khushi Malik]
+- **LinkedIn**: (https://www.linkedin.com/in/thekhushimalik/)]
+- **GitHub**: [(https://github.com/thekhushimalik)]  
+- **Email**: [thekhushimalik@gmail.com]
 
 **Looking for opportunities in**:
 - Data Analytics & Business Intelligence
-- SQL Database Development
-- E-commerce Analytics
 - Machine Learning Engineering
 
 ---
